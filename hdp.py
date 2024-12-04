@@ -10,13 +10,13 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 # Loading the saved models
-diabetes_model = pickle.load(open('C:/Users/HP/OneDrive/Desktop/healthdiagnosis/sav models/trained_model.sav', 'rb'))
-heart_model = pickle.load(open('C:/Users/HP/OneDrive/Desktop/healthdiagnosis/sav models/heart_disease_trained_model.sav', 'rb'))
-park_model = pickle.load(open('C:/Users/HP/OneDrive/Desktop/healthdiagnosis/sav models/park_trained_model.sav', 'rb'))
+diabetes_model = pickle.load(open('C:/Users/HP/OneDrive/Desktops/healthdiagnosis/sav models/trained_model.sav', 'rb'))
+heart_model = pickle.load(open('C:/Users/HP/OneDrive/Desktops/healthdiagnosis/sav models/heart_disease_trained_model.sav', 'rb'))
+park_model = pickle.load(open('C:/Users/HP/OneDrive/Desktops/healthdiagnosis/sav models/park_trained_model.sav', 'rb'))
 
 # Loading the saved scalers
-diabetes_scaler = pickle.load(open('C:/Users/HP/OneDrive/Desktop/healthdiagnosis/sav models/scaler.sav', 'rb'))
-park_scaler = pickle.load(open('C:/Users/HP/OneDrive/Desktop/healthdiagnosis/sav models/park_scaler.sav', 'rb'))
+diabetes_scaler = pickle.load(open('C:/Users/HP/OneDrive/Desktops/healthdiagnosis/sav models/scaler.sav', 'rb'))
+park_scaler = pickle.load(open('C:/Users/HP/OneDrive/Desktops/healthdiagnosis/sav models/park_scaler.sav', 'rb'))
 
 # Sidebar for navigation
 with st.sidebar:

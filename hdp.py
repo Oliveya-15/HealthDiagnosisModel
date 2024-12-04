@@ -5,7 +5,7 @@ import os
 
 # Dynamically get the path of the models and scalers
 base_dir = os.path.dirname(os.path.abspath(__file__))  # Get the base directory of the current file
-models_dir = os.path.join(base_dir, 'models')  # Folder where models and scalers are saved
+models_dir = os.path.join(base_dir, 'sav models')  # Folder where models and scalers are saved
 
 # Loading the saved models and scalers using dynamic paths
 diabetes_model = pickle.load(open(os.path.join(models_dir, 'trained_model.sav'), 'rb'))
